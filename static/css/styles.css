@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://www.digient.in/images/2020/07/07/banners-sub/flightbook.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar {
+    background-color:blue;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+  }
+
+  .navbar-ban{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: inherit;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding: 0 370px  0;
+  }
