@@ -6,7 +6,7 @@ import pandas as pd
 
 
 app = Flask(__name__)
-model = pickle.load(open("c1_flight_rf.pkl", "rb"))
+model = pickle.load(open("c3_flight_rf.pkl", "rb"))
 
 
 @app.route("/")
@@ -233,5 +233,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
-    app.run(port=5002)
+    app.run()
+    
